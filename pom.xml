@@ -22,7 +22,7 @@
     </plugins>
 </build>
 
-<repository>
+<!-- <repository>
     <id>com.springsource.repository.bundles.release</id>
     <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
     <url>http://repository.springsource.com/maven/bundles/release</url>
@@ -31,7 +31,7 @@
     <id>com.springsource.repository.bundles.external</id>
     <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
     <url>http://repository.springsource.com/maven/bundles/external</url>
-</repository>
+</repository> -->
 
 <dependencies>
     <dependency>
@@ -66,7 +66,6 @@
         <version>2.11.1</version>
     </dependency>
 </dependencies>
-=======
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
@@ -115,6 +114,4 @@
             <version>2.11.1</version>
         </dependency>
     </dependencies>
->>>>>>> fd39c308a981ce6c5b43813912bd15ffa0939c9f
-
 </project>
